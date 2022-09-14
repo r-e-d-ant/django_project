@@ -3,4 +3,7 @@ from django.http import HttpResponse
 
 # Views
 def home(request):
-	HttpResponse('<h1>Hello, World! This is a home page<h1/>')
+	return  HttpResponse('<h1>Blog Home<h1/>')
+
+def about(request):
+	return HttpResponse('<h1>Blog About<h1/>')
