@@ -1,2 +1,3 @@
 __pycache__
 /blog/static/blog/bootstrap
+django_env
